@@ -7,7 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GithubComponent implements OnInit {
 
+  public githubUserQuery:string;
+
+
   constructor() { }
+
+  public searchUser(){
+    
+  }
 
   ngOnInit(): void {
   }
